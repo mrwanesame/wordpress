@@ -1,0 +1,218 @@
+.ec-authentication-grid .brand-side {
+    background-color: #fff
+}
+
+.ec-authentication-grid .brand-side,.ec-authentication-grid .brand-side header {
+    width: 100%;
+    height: 70px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center
+}
+
+.ec-authentication-grid .brand-side header {
+    -webkit-justify-content: space-between;
+    justify-content: space-between
+}
+
+.ec-authentication-grid .brand-side header .logo {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center
+}
+
+.ec-authentication-grid .brand-side header .logo .icon-nickel-logo {
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: #ff5f00
+}
+
+.ec-authentication-grid .brand-side header .logo .icon-nickel {
+    width: 5.625rem;
+    height: 5.625rem
+}
+
+.ec-authentication-grid .brand-side .cn-button {
+    height: 3.125rem;
+    line-height: 3.125rem;
+    font-weight: 500
+}
+
+@media (min-width: 768px) {
+    .ec-authentication-grid .brand-side {
+        -webkit-flex:1 1;
+        flex: 1 1;
+        height: auto;
+        background-color: #ff5f00;
+        border-top-left-radius: .625rem;
+        border-top-right-radius: .625rem;
+        padding: 2.25rem;
+        -webkit-flex-direction: column;
+        flex-direction: column
+    }
+
+    .ec-authentication-grid .brand-side.spanish {
+        border-radius: 2rem 2rem 0 0;
+        background-color: #f2f2f2;
+        border: 1.125rem solid #fff
+    }
+
+    .ec-authentication-grid .brand-side.spanish .logo .icon-nickel-logo {
+        fill: #ff5f00
+    }
+
+    .ec-authentication-grid .brand-side.spanish .logo .icon-nickel {
+        fill: #000
+    }
+
+    .ec-authentication-grid .brand-side.spanish .media-homepage {
+        display: none;
+        max-width: 23rem;
+        width: 80%!important
+    }
+
+    .ec-authentication-grid .brand-side .cn-link {
+        color: #fff;
+        text-decoration: none
+    }
+
+    .ec-authentication-grid .brand-side .cn-link:hover {
+        color: #fff
+    }
+
+    .ec-authentication-grid .brand-side header .logo {
+        margin: 0;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        -webkit-align-items: center;
+        align-items: center;
+        height: inherit
+    }
+
+    .ec-authentication-grid .brand-side header .logo .icon-nickel,.ec-authentication-grid .brand-side header .logo .icon-nickel-logo {
+        fill: #fff
+    }
+
+    .ec-authentication-grid .brand-side .header-content {
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        margin-top: .625rem
+    }
+
+    .ec-authentication-grid .brand-side .header-content,.ec-authentication-grid .brand-side .header-content .wrapper-buttons {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: center;
+        align-items: center
+    }
+
+    .ec-authentication-grid .brand-side .header-content .wrapper-buttons .cn-link {
+        -webkit-align-items: center;
+        align-items: center;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        -webkit-justify-content: center;
+        justify-content: center;
+        text-decoration: underline
+    }
+
+    .ec-authentication-grid .brand-side .header-content .wrapper-buttons .cn-link .icon-danger {
+        margin-right: .3rem;
+        margin-top: .25rem
+    }
+
+    .ec-authentication-grid .brand-side .header-content .media-homepage {
+        display: none
+    }
+
+    .ec-authentication-grid .brand-side .header-content .cn-text-default {
+        margin-bottom: 1.25rem;
+        text-align: center
+    }
+}
+
+@media (min-width: 1024px) {
+    .ec-authentication-grid .brand-side {
+        max-height:37.5rem;
+        max-width: 30.125rem;
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: .625rem;
+        -webkit-justify-content: space-between;
+        justify-content: space-between
+    }
+
+    .ec-authentication-grid .brand-side.spanish {
+        border-radius: 2rem 0 0 2rem
+    }
+
+    .ec-authentication-grid .brand-side header .icon-nickel-logo {
+        width: 3.125rem;
+        height: 3.125rem;
+        fill: #fff
+    }
+
+    .ec-authentication-grid .brand-side header .icon-nickel {
+        width: 7.5rem;
+        height: 7.5rem;
+        fill: #fff
+    }
+
+    .ec-authentication-grid .brand-side .header-content {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        height: 100%;
+        -webkit-justify-content: space-around;
+        justify-content: space-around
+    }
+
+    .ec-authentication-grid .brand-side .header-content .cn-text-default {
+        padding-left: 0;
+        padding-right: 0;
+        line-height: 1.5rem
+    }
+
+    .ec-authentication-grid .brand-side .header-content .media-homepage {
+        display: none;
+        max-width: 23rem;
+        width: 100%
+    }
+}
+
+@media (max-height: 600px) {
+    .ec-authentication-grid .brand-side .header-content .media-homepage {
+        max-width:18rem;
+        display: none;
+    }
+}
+
+@media (max-height: 500px) {
+    .ec-authentication-grid .brand-side .header-content .media-homepage {
+        max-width:14rem
+    }
+}
+
+@media (min-width: 1440px) {
+    .ec-authentication-grid .brand-side {
+        max-height:40rem;
+        max-width: 36.5rem
+    }
+
+    .ec-authentication-grid .brand-side .header-content .media-homepage {
+        max-width: 25rem;
+        display: none;
+    }
+}
+
+

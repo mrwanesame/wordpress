@@ -1,0 +1,413 @@
+body,html {
+    font-family: Muller Narrow;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 300
+}
+
+@media (max-width: 576px) {
+    body,html {
+        font-size:16px;
+        line-height: 18px
+    }
+}
+
+b,strong {
+    font-weight: 500
+}
+
+.cn-form .cn-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ff5f00;
+    font-size: 20px;
+    font-weight: 500
+}
+
+.device-borne .cn-form .cn-form-group label {
+    font-size: 30px;
+    margin-bottom: 15px
+}
+
+@media (max-width: 576px) {
+    .cn-form .cn-form-group label {
+        font-size:18px
+    }
+}
+
+.ec-authentication-grid {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: stretch;
+    align-items: stretch
+}
+
+.ec-authentication-grid .form-side {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    padding: 1.5rem .625rem;
+    height: calc(100vh - 70px);
+    position: relative
+}
+
+.ec-authentication-grid .form-side .PartnerLink,.ec-authentication-grid .form-side .RegistrationLink {
+    -webkit-align-items: center;
+    align-items: center;
+    background-color: #fff;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    width: 100%
+}
+
+.ec-authentication-grid .form-side .PartnerLink p,.ec-authentication-grid .form-side .RegistrationLink p {
+    margin-bottom: 1rem;
+    text-align: center
+}
+
+.ec-authentication-grid .form-side .PartnerLink {
+    max-height: 200px
+}
+
+.ec-authentication-grid .form-side .label-wrapper {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-bottom: .313rem;
+    width: 100%
+}
+
+.ec-authentication-grid .form-side .label-wrapper label {
+    color: #ff5f00;
+    font-size: 1rem;
+    font-weight: 500
+}
+
+.ec-authentication-grid .form-side .cn-link {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #000;
+    margin-right: 0
+}
+
+.ec-authentication-grid .form-side .cn-link:hover {
+    text-decoration: none
+}
+
+.ec-authentication-grid .form-side .wrapper-translate-buttons {
+    position: absolute;
+    top: -47px;
+    right: 10px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row
+}
+
+.ec-authentication-grid .form-side .wrapper-translate-buttons button {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    margin-right: 5px;
+    padding: 5px 10px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center
+}
+
+.ec-authentication-grid .form-side .wrapper-translate-buttons button:hover {
+    border: 1px solid #ff5f00
+}
+
+.ec-authentication-grid .form-side .cn-form {
+    display: -webkit-flex;
+    display: flex;
+    max-width: 360px;
+    width: 100%;
+    margin: 0 auto;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    background-color: #f2f2f2
+}
+
+.ec-authentication-grid .form-side .cn-form .user-account {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-bottom: 35px
+}
+
+.ec-authentication-grid .form-side .cn-form .user-account--name {
+    font-size: 1.25rem;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 1.25rem
+}
+
+.ec-authentication-grid .form-side .cn-form .label-with-help {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: baseline;
+    align-items: baseline
+}
+
+.ec-authentication-grid .form-side .cn-form .label-with-help label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ff5f00;
+    margin: 0
+}
+
+.ec-authentication-grid .form-side .cn-form .cn-code-input {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px
+}
+
+.ec-authentication-grid .form-side .cn-form .cn-code-input .inputs-wrapper {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 5px
+}
+
+.ec-authentication-grid .form-side .cn-form .cn-code-input .inputs-wrapper .cn-form-control {
+    border: none;
+    margin: 5px 0
+}
+
+.ec-authentication-grid .form-side .cn-form .cn-code-input .inputs-wrapper .error-input {
+    display: none
+}
+
+.ec-authentication-grid .form-side .cn-form .wrapper-checkbox .cn-checkbox-label {
+    color: #000;
+    margin: 0
+}
+
+.ec-authentication-grid .form-side .cn-form .wrapper-checkbox label svg {
+    font-size: 30px
+}
+
+.ec-authentication-grid .form-side .cn-form .keyboard {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column
+}
+
+.ec-authentication-grid .form-side .cn-form .keyboard .wrapper-digits-circle {
+    margin-left: 16px;
+    margin-right: 16px
+}
+
+.ec-authentication-grid .form-side .cn-form .keyboard .wrapper-keyboard .cn-button.border-grey {
+    font-weight: 500
+}
+
+.ec-authentication-grid .form-side .footer {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+.ec-authentication-grid .form-side .footer button {
+    margin-bottom: 1rem
+}
+
+.ec-authentication-grid .form-side .ec-side-screen {
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    position: relative;
+    padding-right: 30px;
+    padding-left: 30px
+}
+
+.ec-authentication-grid .form-side .ec-side-screen .cn-text-default {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px
+}
+
+.ec-authentication-grid .form-side .ec-side-screen .ec-mastercard {
+    width: 200px;
+    margin-bottom: 20px
+}
+
+.ec-authentication-grid .form-side .ec-side-screen .ec-back-card {
+    margin-bottom: 35px
+}
+
+.ec-authentication-grid .form-side .ec-side-screen .ec-confirmation {
+    padding-right: 20px;
+    padding-left: 20px
+}
+
+@media (min-width: 768px) {
+    .ec-authentication-grid {
+        min-height:100%;
+        height: 100%
+    }
+
+    body .ec-authentication-grid {
+        padding: 10px
+    }
+
+    .ec-authentication-grid .form-side {
+        -webkit-flex: 1 0 50%;
+        flex: 1 0 50%;
+        height: 50%;
+        -webkit-align-items: center;
+        align-items: center;
+        background-color: #fff;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 2rem
+    }
+
+    .ec-authentication-grid .form-side .wrapper-translate-buttons {
+        top: -60px;
+        right: 30px
+    }
+
+    .ec-authentication-grid .form-side .wrapper-translate-buttons button {
+        background-color: transparent;
+        border: none
+    }
+
+    .ec-authentication-grid .form-side .wrapper-translate-buttons button:hover {
+        border: none;
+        background-color: #fff
+    }
+
+    .ec-authentication-grid .form-side .PartnerLink,.ec-authentication-grid .form-side .RegistrationLink {
+        border-top: 3px solid #f2f2f2
+    }
+
+    .ec-authentication-grid .form-side .cn-form {
+        background-color: #fff;
+        max-width: 380px;
+        width: 100%
+    }
+
+    .ec-authentication-grid .form-side .cn-form .cn-form-group label {
+        font-size: 18px
+    }
+
+    .ec-authentication-grid .form-side .cn-form .cn-code-input {
+        margin-bottom: 22px
+    }
+
+    .ec-authentication-grid .form-side .cn-form .cn-code-input .inputs-wrapper .cn-form-control {
+        border: 1px solid #ccc
+    }
+
+    .ec-authentication-grid .form-side .cn-form .user-account {
+        text-align: center;
+        margin-bottom: 3.75rem
+    }
+
+    .ec-authentication-grid .form-side .footer {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: center;
+        align-items: center
+    }
+
+    .ec-authentication-grid .form-side .ec-side-screen {
+        padding-right: 150px;
+        padding-left: 150px
+    }
+
+    .ec-authentication-grid .form-side .ec-side-screen .cn-text-default {
+        font-size: 18px
+    }
+}
+
+@media (min-width: 1024px) {
+    .ec-authentication-grid {
+        display:-webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        align-items: center
+    }
+
+    .ec-authentication-grid .form-side {
+        max-height: 37.5rem;
+        max-width: 30.125rem;
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 0;
+        padding-top: 42px
+    }
+
+    .ec-authentication-grid .form-side .wrapper-translate-buttons {
+        top: 40px;
+        left: -140px;
+        right: unset
+    }
+
+    .ec-authentication-grid .form-side .cn-form button {
+        max-width: 300px
+    }
+
+    .ec-authentication-grid .form-side .ec-side-screen {
+        padding-right: 2.5rem;
+        padding-left: 2.5rem
+    }
+}
+
+@media (min-width: 1440px) {
+    .ec-authentication-grid .form-side {
+        max-height:40rem;
+        max-width: 36.5rem
+    }
+}
+
+
